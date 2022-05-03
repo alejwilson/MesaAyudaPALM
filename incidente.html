@@ -26,33 +26,31 @@
 			
 			<div class="sidebar-content js-simplebar">
 				<a class="sidebar-brand" href="index.html">
+					<img src="img/avatars/moderna.png" class="img-fluid" width="77%" height="77%" /><br>
           <span class="align-middle">LA MODERNA GDL</span>
         </a>
 
-				<ul class="sidebar-nav">
-					<li class="sidebar-header">
-						Pages
-					</li>
+			<ul class="sidebar-nav"> <li class="sidebar-header">Páginas</li>
 
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="index.html">
-              <i class="align-middle" data-feather="home"></i> <span class="align-middle">Inicio</span>
-            </a>
-					</li>
+				<li class="sidebar-item">
+				<a class="sidebar-link" href="index.html">
+                <i class="align-middle" data-feather="home"></i> <span class="align-middle">Inicio</span>
+                </a>
+				</li>
 
-					<li class="sidebar-item active">
-						<a class="sidebar-link" href="Incidente.html">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Incidente</span>
-            </a>
-					</li>
+				<li class="sidebar-item active">
+				<a class="sidebar-link" href="Incidente.html">
+                <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Incidente</span>
+                </a>
+				</li>
 
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-sign-in.html">
-              <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Inicio de sesión</span>
-            </a>
-					</li>
+				<li class="sidebar-item">
+				<a class="sidebar-link" href="pages-sign-in.html">
+                <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Inicio de sesión</span>
+                </a>
+				</li>
 
-					<li class="sidebar-header">		
+				<li class="sidebar-header">		
 			</div>
 		</nav>
 
@@ -62,54 +60,62 @@
 
 
 		<div class="main">
-			<nav class="navbar navbar-expand navbar-light navbar-bg">
-				<a class="sidebar-toggle js-sidebar-toggle">
-          <i class="hamburger align-self-center"></i>
-        </a>
-
-				<div class="navbar-collapse collapse">
-					<ul class="navbar-nav navbar-align">
-						<li class="nav-item dropdown">
-							<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">	
-							</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
-                <i class="align-middle" data-feather="settings"></i>
-              </a>
-
-							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/1.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Alejandro Felix</span>
-              </a>
-							<div class="dropdown-menu dropdown-menu-end">
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Log out</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-
-
-
-
-
-
-
-
-
 			<main class="content">
 				<div class="container-fluid p-0">
 
 					<h1 class="h3 mb-3"><strong>Enviar un ticket</strong> La moderna PALMGDL</h1>
 
-					<div class="row">
-							<h1>Este espacio</h1>
-					</div>
-					<div class="row"></div>
+						<!--	<form action="#" target="" method="get" name="formDatosPersonales">
+	<label for="nombre">Nombre</label><br>
+	<input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"/><br>
 
+	<label for="apellidos">Apellido</label><br>
+	<input type="text" name="apellidos" id="apellidos" placeholder="Ingresa tu apellido"/><br>
+
+    <label for="departamento">Departamento</label><br>
+	<input type="text" name="departamento" id="departamento" placeholder="Departamento"/><br>
+
+	<label for="email" />Email</label><br>
+	<input type="email" name="email" id="email" placeholder="email" required /><br>
+
+	<label for="asunto">Asunto</label><br>
+	<input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/><br>
+
+	<label for="mensaje">Descripción</label><br>
+	<textarea name="mensaje" for="mensaje" placeholder="Escribe brevemente el problema sucitado" maxlength="300"></textarea>
+	
+	<input type="submit" name="enviar" value="Enviar datos"/>
+</form> -->
+
+							<div class="card-body">
+								<div class="m-sm-4">
+									<form action="#" target="" method="get" name="formDatosPersonales">
+
+	<label for="nombre">Nombre</label><br>
+	<input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre completo"/><br>
+
+	<label for="apellidos">Apellido</label><br>
+	<input type="text" name="apellidos" id="apellidos" placeholder="Ingresa tus apellidos"/><br>
+
+    <label for="departamento">Departamento</label><br>
+	<input type="text" name="departamento" id="departamento" placeholder="Departamento "/><br>
+
+	<label for="email" />Correo electrónico</label><br>
+	<input type="email" name="email" id="email" placeholder="Email" required /><br>
+
+	<label for="asunto">Asunto</label><br>
+	<input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/><br>
+
+	<label for="mensaje">Descripción</label><br>
+	<textarea name="mensaje" for="mensaje" placeholder="Escribe brevemente el problema sucitado" maxlength="300"></textarea>
+	
+	<input type="submit" name="enviar" value="Enviar datos"/>
+
+
+</form>
+							
+						</div>
+					</div>
 				</div>
 			</main>
 
@@ -118,7 +124,6 @@
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Mesa de trabajo</strong></a> &copy;
 							</p>
 						</div>
 					</div>
@@ -128,229 +133,73 @@
 	</div>
 
 	<script src="js/app.js"></script>
-
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
-			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
-			gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
-			gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
-			// Line chart
-			new Chart(document.getElementById("chartjs-dashboard-line"), {
-				type: "line",
-				data: {
-					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-					datasets: [{
-						label: "Sales ($)",
-						fill: true,
-						backgroundColor: gradient,
-						borderColor: window.theme.primary,
-						data: [
-							2115,
-							1562,
-							1584,
-							1892,
-							1587,
-							1923,
-							2566,
-							2448,
-							2805,
-							3438,
-							2917,
-							3327
-						]
-					}]
-				},
-				options: {
-					maintainAspectRatio: false,
-					legend: {
-						display: false
-					},
-					tooltips: {
-						intersect: false
-					},
-					hover: {
-						intersect: true
-					},
-					plugins: {
-						filler: {
-							propagate: false
-						}
-					},
-					scales: {
-						xAxes: [{
-							reverse: true,
-							gridLines: {
-								color: "rgba(0,0,0,0.0)"
-							}
-						}],
-						yAxes: [{
-							ticks: {
-								stepSize: 1000
-							},
-							display: true,
-							borderDash: [3, 3],
-							gridLines: {
-								color: "rgba(0,0,0,0.0)"
-							}
-						}]
-					}
-				}
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			// Pie chart
-			new Chart(document.getElementById("chartjs-dashboard-pie"), {
-				type: "pie",
-				data: {
-					labels: ["Chrome", "Firefox", "IE"],
-					datasets: [{
-						data: [4306, 3801, 1689],
-						backgroundColor: [
-							window.theme.primary,
-							window.theme.warning,
-							window.theme.danger
-						],
-						borderWidth: 5
-					}]
-				},
-				options: {
-					responsive: !window.MSInputMethodContext,
-					maintainAspectRatio: false,
-					legend: {
-						display: false
-					},
-					cutoutPercentage: 75
-				}
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			// Bar chart
-			new Chart(document.getElementById("chartjs-dashboard-bar"), {
-				type: "bar",
-				data: {
-					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-					datasets: [{
-						label: "This year",
-						backgroundColor: window.theme.primary,
-						borderColor: window.theme.primary,
-						hoverBackgroundColor: window.theme.primary,
-						hoverBorderColor: window.theme.primary,
-						data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
-						barPercentage: .75,
-						categoryPercentage: .5
-					}]
-				},
-				options: {
-					maintainAspectRatio: false,
-					legend: {
-						display: false
-					},
-					scales: {
-						yAxes: [{
-							gridLines: {
-								display: false
-							},
-							stacked: false,
-							ticks: {
-								stepSize: 20
-							}
-						}],
-						xAxes: [{
-							stacked: false,
-							gridLines: {
-								color: "transparent"
-							}
-						}]
-					}
-				}
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var markers = [{
-					coords: [31.230391, 121.473701],
-					name: "Shanghai"
-				},
-				{
-					coords: [28.704060, 77.102493],
-					name: "Delhi"
-				},
-				{
-					coords: [6.524379, 3.379206],
-					name: "Lagos"
-				},
-				{
-					coords: [35.689487, 139.691711],
-					name: "Tokyo"
-				},
-				{
-					coords: [23.129110, 113.264381],
-					name: "Guangzhou"
-				},
-				{
-					coords: [40.7127837, -74.0059413],
-					name: "New York"
-				},
-				{
-					coords: [34.052235, -118.243683],
-					name: "Los Angeles"
-				},
-				{
-					coords: [41.878113, -87.629799],
-					name: "Chicago"
-				},
-				{
-					coords: [51.507351, -0.127758],
-					name: "London"
-				},
-				{
-					coords: [40.416775, -3.703790],
-					name: "Madrid "
-				}
-			];
-			var map = new jsVectorMap({
-				map: "world",
-				selector: "#world_map",
-				zoomButtons: true,
-				markers: markers,
-				markerStyle: {
-					initial: {
-						r: 9,
-						strokeWidth: 7,
-						stokeOpacity: .4,
-						fill: window.theme.primary
-					},
-					hover: {
-						fill: window.theme.primary,
-						stroke: window.theme.primary
-					}
-				},
-				zoomOnScroll: false
-			});
-			window.addEventListener("resize", () => {
-				map.updateSize();
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
-			var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
-			document.getElementById("datetimepicker-dashboard").flatpickr({
-				inline: true,
-				prevArrow: "<span title=\"Previous month\">&laquo;</span>",
-				nextArrow: "<span title=\"Next month\">&raquo;</span>",
-				defaultDate: defaultDate
-			});
-		});
-	</script>
+	
+	
+	
+	
 
 </body>
 
+<style type="text/css">
+*{box-sizing:border-box;}
+
+form{
+
+   /* Div base */
+	width: 90%;
+	padding:16px;
+	border-radius:20px;
+	margin:auto;
+	background-color:#D5DBDB;
+}
+
+/* Etiquetas */
+form label{
+	width:80%;
+	font-weight:bold;
+	display:inline-block;
+}
+
+/* Caudros de texto  */
+form input[type="text"], 
+form input[type="email"]{
+	width:80%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+/* Boton enviar */
+form input[type="submit"]{
+	width:20%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:10px;
+	display:block;
+	color:#fff;
+	background-color:#239B56;
+} 
+
+/* Cuadro de texto */
+textarea{
+	width:80%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+</style>
 </html>
